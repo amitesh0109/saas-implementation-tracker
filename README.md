@@ -1,6 +1,6 @@
 # SaaS Implementation Tracker
 
-A fully connected, dynamic spreadsheet for managing SaaS customer onboarding — built to demonstrate how implementation teams can replace disconnected spreadsheets with a single, formula-driven tracking system.
+A fully connected, dynamic spreadsheet for managing SaaS customer onboarding, built to demonstrate how implementation teams can replace disconnected spreadsheets with a single, formula-driven tracking system.
 
 Works in both **Microsoft Excel** and **Google Sheets** with no setup required.
 
@@ -14,21 +14,21 @@ Tracks the full customer implementation lifecycle across 5 connected sheets:
 
 | Sheet | Purpose |
 |---|---|
-| 📊 Dashboard | Live KPI cards + customer overview — updates automatically when customers are added |
-| 🗂 Customers | Master customer registry — single source of truth |
+| 📊 Dashboard | Live KPI cards + customer overview updates automatically when customers are added |
+| 🗂 Customers | Master customer registry single source of truth |
 | 🏁 Milestones | Phase-by-phase milestone tracking per customer |
 | ✅ Action Items | Task log with owner, due date, priority, and automatic overdue alerts |
-| 📈 Progress | Phase completion heatmap — auto-calculated from Milestones |
+| 📈 Progress | Phase completion heatmap auto-calculated from Milestones |
 
 ---
 
 ## How It Works
 
 ### Single source of truth
-Add a customer once in 🗂 Customers. Every other sheet updates automatically — no manual copying, no duplicate data entry.
+Add a customer once in 🗂 Customers. Every other sheet updates automatically, no manual copying, no duplicate data entry.
 
 ### Pre-populated formulas (works in Excel & Google Sheets)
-All 20 customer slots in the Dashboard and Progress sheets are pre-filled with formulas. Empty slots stay blank until a customer is added. No QUERY functions — pure COUNTIFS, VLOOKUP, and IF formulas that work identically in both Excel and Google Sheets.
+All 20 customer slots in the Dashboard and Progress sheets are pre-filled with formulas. Empty slots stay blank until a customer is added. No QUERY functions pure COUNTIFS, VLOOKUP, and IF formulas that work identically in both Excel and Google Sheets.
 
 ### Data flow
 ```
@@ -130,7 +130,7 @@ Shows as "3 / 7" — complete milestones out of total for that customer.
 
 ## About
 
-Built as a portfolio project to demonstrate implementation tooling skills — specifically the ability to design systems that eliminate manual work, connect data across workstreams, and scale customer onboarding operations.
+Built as a portfolio project to demonstrate implementation tooling skills specifically the ability to design systems that eliminate manual work, connect data across workstreams, and scale customer onboarding operations.
 
 **Amitesh Anirudhan**
 - GitHub: [github.com/amitesh0109](https://github.com/amitesh0109)
